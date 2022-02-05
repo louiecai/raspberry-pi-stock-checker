@@ -8,6 +8,8 @@ ______  ___   ___________ _____      _____ _____ ______  ___  ______ ___________
 \_| \_\_| |_/\____/\_|    \___/     \____/ \____/\_| \_\_| |_/\_|   \____/\_| \_|  By Louie Cai
  ```
 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 Raspi-scraper is a configurable python webscraper that checks raspberry pi stocks from verified sellers.
 
 
