@@ -1,6 +1,7 @@
 import termcolor
 import requests
 import time
+import yaml
 
 
 def print_logo() -> None:
@@ -14,8 +15,11 @@ def print_logo() -> None:
     print(termcolor.colored('  by Louie Cai\n', color='magenta', attrs=['bold']))
 
 
-def pretty_print(name: str, price: str, in_stock: bool, start='', date=None) -> None:
-    if in_stock:
+def pretty_print(name: str, price: str, in_stock: bool, start='', date=None, other=None) -> None:
+    if other is not None:
+        other = other.rstrip()
+        print(f'{start}{name}: {termcolor.colored(other, "yellow", attrs=["bold"])}')
+    elif in_stock:
         print(f'{start}{name}: {termcolor.colored("In stock", "green", attrs=["bold"])}', end='')
         if date is not None and date != '':
             print(termcolor.colored(f' ({date})', attrs=['dark']))
@@ -40,3 +44,8 @@ def better_request(url: str, name: str, retry_time=4.0) -> requests.models.Respo
         except:
             print(termcolor.colored(f'Request to {name} failed. Retrying in {retry_time} seconds...', 'red'))
             time.sleep(retry_time)
+
+
+def parse_config(path: str) -> dict:
+    with open(path) as config_file:
+        return yaml.load(config_file, Loader=yaml.FullLoader)

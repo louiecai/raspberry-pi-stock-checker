@@ -1,19 +1,29 @@
 {
   "Raspberry Pi 4 Model B/1GB": {
-    "PiShop.us": "https://www.pishop.us/product/raspberry-pi-4-model-b-1gb/"
+    "PiShop.us": "https://www.pishop.us/product/raspberry-pi-4-model-b-1gb/",
+    "Microcenter": "https://www.microcenter.com/product/608166/raspberry-pi-4-model-b-1gb-ddr4",
+    "Adafruit": "https://www.adafruit.com/product/4295",
+    "Chicago Electronic": "https://chicagodist.com/products/raspberry-pi-4-model-b-1gb"
   },
   "Raspberry Pi 4 Model B/2GB": {
     "PiShop.us": "https://www.pishop.us/product/raspberry-pi-4-model-b-2gb/",
-    "CanaKit": "https://www.canakit.com/raspberry-pi-4-2gb.html"
+    "CanaKit": "https://www.canakit.com/raspberry-pi-4-2gb.html",
+    "Vilros": "https://vilros.com/products/raspberry-pi-4-2gb-ram",
+    "Microcenter": "https://www.microcenter.com/product/621439/raspberry-pi-4-model-b---2gb-ddr4",
+    "Adafruit": "https://www.adafruit.com/product/4292",
+    "Okdo": "https://www.okdo.com/us/p/raspberry-pi-4-model-b-2gb-2/",
+    "Chicago Electronic": "https://chicagodist.com/products/raspberry-pi-4-model-b-2gb",
+    "Sparkfun": "https://www.sparkfun.com/products/15446"
   },
   "Raspberry Pi 4 Model B/4GB": {
     "PiShop.us": "https://www.pishop.us/product/raspberry-pi-4-model-b-4gb/",
     "CanaKit": "https://www.canakit.com/raspberry-pi-4-4gb.html",
     "Microcenter": "https://www.microcenter.com/product/609038/4--model-b-4gb",
     "Okdo": "https://www.okdo.com/us/p/raspberry-pi-4-model-b-4gb/",
-    "Chicago Electronic": "https://chicagodist.com/products/raspberry-pi-4-model-b-8gb/",
+    "Chicago Electronic": "https://chicagodist.com/products/raspberry-pi-4-model-b-4gb/",
     "Adafruit": "https://www.adafruit.com/product/4296",
-    "Sparkfun": "https://www.sparkfun.com/products/15447"
+    "Sparkfun": "https://www.sparkfun.com/products/15447",
+    "Vilros": "https://vilros.com/products/raspberry-pi-4-4gb-ram"
   },
   "Raspberry Pi 4 Model B/8GB": {
     "PiShop.us": "https://www.pishop.us/product/raspberry-pi-4-model-b-8gb/",
@@ -24,9 +34,23 @@
     "Adafruit": "https://www.adafruit.com/product/4564"
   },
   "Raspberry Pi Zero 2 W": {
-    "PiShop.us": "https://www.pishop.us/product/raspberry-pi-zero-2-w/"
+    "PiShop.us": "https://www.pishop.us/product/raspberry-pi-zero-2-w/",
+    "CanaKit": "https://www.canakit.com/raspberry-pi-zero-2-w.html",
+    "Microcenter": "https://www.microcenter.com/product/643085/pizero2w",
+    "Okdo": "https://www.okdo.com/us/p/raspberry-pi-zero-2-w/",
+    "Chicago Electronic": "https://chicagodist.com/products/raspberry-pi-zero-2",
+    "Adafruit": "https://www.adafruit.com/piz2w",
+    "Sparkfun": "https://www.sparkfun.com/products/18713",
+    "Vilros": "https://vilros.com/products/raspberry-pi-zero-2-w"
   },
   "Raspberry Pi Pico": {
-    "PiShop.us": "https://www.pishop.us/product/raspberry-pi-pico/"
+    "PiShop.us": "https://www.pishop.us/product/raspberry-pi-pico/",
+    "CanaKit": "https://www.canakit.com/raspberry-pi-pico.html",
+    "Microcenter": "https://www.microcenter.com/product/632771/pico",
+    "Okdo": "https://www.okdo.com/us/p/raspberry-pi-pico/",
+    "Chicago Electronic": "https://chicagodist.com/products/raspberry-pi-pico",
+    "Adafruit": "https://www.adafruit.com/pico",
+    "Sparkfun": "https://www.sparkfun.com/products/17829",
+    "Vilros": "https://vilros.com/products/raspberry-pi-pico"
   }
 }
